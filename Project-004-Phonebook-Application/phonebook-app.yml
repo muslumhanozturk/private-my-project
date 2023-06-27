@@ -140,7 +140,7 @@ Resources:
       AllocatedStorage: 20
       AllowMajorVersionUpgrade: false
       AutoMinorVersionUpgrade: false
-      BackupRetentionPeriod: 0
+      BackupRetentionPeriod: 0           #back-up alınmasını istemiyorsak 0 yazılır.
       DBInstanceClass: db.t2.micro
       DBInstanceIdentifier: phonebook-app
       DBName: clarusway_phonebook
