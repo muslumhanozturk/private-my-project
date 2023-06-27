@@ -165,11 +165,11 @@ Outputs:
 
 
 # birden fazla instance ayağa kaldırdığımız uygulamaya instance üstünden erişemeyiz.
-# load balancerinin dns nami ile erişiriz
+# load balancerinin dns name ile erişiriz
 # çünkü internetle ilk etkileşime geçtiği yer load balancer
 # 80 portundan dinle 
 # dinlediğin yükü dağıt
-# nereye target groupsa
-# target gropus ney instancelar
-# instanceleri kim oluşturuyor auto scaling group
-# auto scaling group neye göre oluşturuyor launch template göre
+# nereye ----> target groupsa
+# target gropus ney ---->  instancelar
+# instanceleri kim oluşturuyor-----> auto scaling group
+# auto scaling group neye göre oluşturuyor ----> launch template göre
